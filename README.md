@@ -1,13 +1,4 @@
 
-## "byClass" and "byMerge" datasets
-
-The full complement of the NIST Special Database 19 is available in the ByClass and ByMerge splits. These two datasets have the same image information but differ in the number of images in each class. Both datasets have an uneven number of images per class and there are more digits than letters. The number of letters roughly equate to the frequency of use in the English language.
-
-    train: 697,932
-    test: 116,323
-    total: 814,255
-    classes: ByClass 62 (unbalanced) / ByMerge 47 (unbalanced)
-
 ## "balanced" dataset
 
 The EMNIST Balanced dataset is meant to address the balance issues in the ByClass and ByMerge datasets. It is derived from the ByMerge dataset to reduce mis-classification errors due to capital and lower case letters and also has an equal number of samples per class. This dataset is meant to be the most applicable.
@@ -16,6 +7,15 @@ The EMNIST Balanced dataset is meant to address the balance issues in the ByClas
     test: 18,800
     total: 131,600
     classes: 47 (balanced)
+    
+## "byClass" and "byMerge" datasets
+
+The full complement of the NIST Special Database 19 is available in the ByClass and ByMerge splits. These two datasets have the same image information but differ in the number of images in each class. Both datasets have an uneven number of images per class and there are more digits than letters. The number of letters roughly equate to the frequency of use in the English language.
+
+    train: 697,932
+    test: 116,323
+    total: 814,255
+    classes: ByClass 62 (unbalanced) / ByMerge 47 (unbalanced)
 
 ## "letters" datasets
 

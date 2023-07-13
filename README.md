@@ -1,5 +1,5 @@
 
-## "balanced" dataset (original 243mb compressed to 31mb)
+## "emnist-balanced" dataset (original 243mb compressed to 31mb)
 
 The EMNIST Balanced dataset is meant to address the balance issues in the ByClass and ByMerge datasets. It is derived from the ByMerge dataset to reduce mis-classification errors due to capital and lower case letters and also has an equal number of samples per class. This dataset is meant to be the most applicable.
 
@@ -8,7 +8,7 @@ The EMNIST Balanced dataset is meant to address the balance issues in the ByClas
     total: 131,600
     classes: 47 (balanced)
     
-## "byMerge" dataset (original 1.46gb compressed to 0mb)
+## "emnist-bymerge" dataset (original 1.46gb compressed to 0mb)
 The full complement of the NIST Special Database 19 is available in the ByClass and ByMerge splits. These two datasets have the same image information but differ in the number of images in each class. Both datasets have an uneven number of images per class and there are more digits than letters. The number of letters roughly equate to the frequency of use in the English language.
 
     train: 697,932
@@ -16,7 +16,7 @@ The full complement of the NIST Special Database 19 is available in the ByClass 
     total: 814,255
     classes: 47 (unbalanced)
 
-## "byClass dataset (original 1.46gb compressed to 188mb)
+## "emnist-byclass" dataset (original 1.46gb compressed to 188mb)
 The full complement of the NIST Special Database 19 is available in the ByClass and ByMerge splits. These two datasets have the same image information but differ in the number of images in each class. Both datasets have an uneven number of images per class and there are more digits than letters. The number of letters roughly equate to the frequency of use in the English language.
 
     train: 697,932
@@ -24,7 +24,7 @@ The full complement of the NIST Special Database 19 is available in the ByClass 
     total: 814,255
     classes: 62 (unbalanced)
 
-## "letters" dataset (original 190mb compressed to 24mb)
+## "emnist-letters" dataset (original 190mb compressed to 24mb)
 The EMNIST Letters dataset merges a balanced set of the uppercase and lowercase letters into a single 26-class task.
 
     train: 88,800
@@ -32,7 +32,7 @@ The EMNIST Letters dataset merges a balanced set of the uppercase and lowercase 
     total: 103,600
     classes: 37 (balanced)
 
-## "mnist" dataset (original: 129mb compressed to 16mb)
+## "emnist-mnist" dataset (original: 129mb compressed to 16mb)
 The EMNIST MNIST dataset provide balanced handwritten digit datasets directly compatible with the original MNIST dataset.
 
     train: MNIST 60,000
@@ -40,7 +40,7 @@ The EMNIST MNIST dataset provide balanced handwritten digit datasets directly co
     total: MNIST 70,000
     classes: 10 (balanced)
 
-## "digits" dataset (original 516mb compressed to 64mb)
+## "emnist-digits" dataset (original 516mb compressed to 64mb)
 The EMNIST Digits dataset provide balanced handwritten digit datasets directly compatible with the original MNIST dataset.
 
     train: Digits 240,000

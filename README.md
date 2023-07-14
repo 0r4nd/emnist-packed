@@ -36,7 +36,7 @@ The full complement of the NIST Special Database 19 is available in the ByClass 
     train: 697,932
     test: 116,323
     total: 814,255
-    classes: 47 (unbalanced)
+    classes: 47 (unbalanced) "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabdefghnqrt"
 
 ## "emnist-byclass" dataset (original 1.46gb compressed to 188mb)
 The full complement of the NIST Special Database 19 is available in the ByClass and ByMerge splits. These two datasets have the same image information but differ in the number of images in each class. Both datasets have an uneven number of images per class and there are more digits than letters. The number of letters roughly equate to the frequency of use in the English language.

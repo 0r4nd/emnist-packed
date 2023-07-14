@@ -30,7 +30,7 @@ The EMNIST Digits dataset provide balanced handwritten digit datasets directly c
     total: Digits 280,000
     classes: 10 (balanced) "0123456789"
 
-## "emnist-bymerge" dataset (original 1.46gb compressed to 0mb)
+## "emnist-bymerge" dataset (original 1.46gb compressed to 188mb)
 The full complement of the NIST Special Database 19 is available in the ByClass and ByMerge splits. These two datasets have the same image information but differ in the number of images in each class. Both datasets have an uneven number of images per class and there are more digits than letters. The number of letters roughly equate to the frequency of use in the English language.
 
     train: 697,932

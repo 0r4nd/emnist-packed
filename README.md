@@ -1,3 +1,5 @@
+# This is a compressed version of the EMNIST (Extended MNIST) dataset, using "webp" (lossless) files. The original dataset comes from [here](https://www.kaggle.com/datasets/crawford/emnist)
+
 ## "emnist-mnist" dataset (original: 129mb compressed to 16mb)
 The EMNIST MNIST dataset provide balanced handwritten digit datasets directly compatible with the original MNIST dataset.
 
